@@ -106,5 +106,8 @@
     <Resource Include="images\newRunner_08.gif" />
     <Resource Include="images\obstacle.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\Catus.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

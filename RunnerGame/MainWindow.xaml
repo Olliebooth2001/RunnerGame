@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RunnerGame"
         mc:Ignorable="d"
-        Title="Runner Game" Height="450" Width="800">
+        Title="Dash Game" Height="450" Width="800">
     <Canvas Name ="SelectedCanvas" Focusable="true" KeyDown="KeyIsDown" KeyUp="KeyIsUp" Background="LightBlue">
 
         <Rectangle Name ="background" Height= "400" Width= "1262" Fill="Orange" Canvas.Left="0"/>
@@ -14,7 +14,7 @@
         <Rectangle Name ="ground" Height= "32" Width= "792" Fill="Black" Canvas.Top="387" Canvas.Left="0"/>
         <Rectangle Name ="player" Height= "99" Width= "67" Fill="Brown" Canvas.Top="151" Canvas.Left="110"/>
 
-        <Rectangle Name ="obstacle" Height= "178" Width= "50" Fill="Red" Canvas.Top="419" Canvas.Left="701"/>
+        <Rectangle Name ="obstacle" Height= "178" Width= "40" Fill="Red" Canvas.Top="419" Canvas.Left="701"/>
 
         <Label Name ="scoreText" FontSize="32" FontWeight="Bold" Content="Score: 0"/>
 

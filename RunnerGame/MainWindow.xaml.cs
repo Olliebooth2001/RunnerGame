@@ -184,7 +184,7 @@ namespace RunnerGame
 
             RunSprite(1);
 
-            obstacleSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/obstacle.png"));
+            obstacleSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/Catus.png"));
             obstacle.Fill = obstacleSprite;
 
             jumping = false;
